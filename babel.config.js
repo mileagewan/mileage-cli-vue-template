@@ -9,5 +9,12 @@ module.exports = {
         style: 'css',
       },
     ],
+    ['component',
+      {
+        libraryName: 'element-ui',
+        styleLibraryName: 'theme-chalk',
+      },
+    ],
   ],
+
 };

@@ -7,6 +7,7 @@
     <a-button type="primary">
       Primary
     </a-button>
+    <el-input></el-input>
     <router-view/>
   </div>
 </template>

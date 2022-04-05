@@ -4,9 +4,11 @@ import './registerServiceWorker';
 import router from './router';
 import store from './store';
 import { install } from '@/ui-plugin/ant-design-plugin';
+import { installElement } from '@/ui-plugin/ElementUIPlugin';
 
 Vue.config.productionTip = false;
 install(Vue);
+installElement(Vue);
 
 new Vue({
   router,
